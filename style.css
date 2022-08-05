@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header{
+    height: 120px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+header h1{
+    padding: 40px;
+    width: 1080px;
+    color:white;
+    font-weight: bold;
+    margin: 0 auto ;
+}
+
+main {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+main nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 60px;
+}
+main nav li {
+    width: 320px;
+    border: 1px solid gray;
+    text-align: center;
+    
+}
+main nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 22px;
+}
+
+main .main-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid;
+}
+
+table {
+    width: 1000px;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+table,th,td {
+    border: 1px solid ;
+    border-collapse: collapse;
+    font-size: 12px;
+    
+}
+
+article {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 1000px;
+   
+}
+
+article caption {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: start;
+}
+article:last-child th{
+    font-weight: 400;
+}
+
+article:last-child td{
+    text-align: end;
+}
+
+section h1{
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+section {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    
+}
+
+form {
+    border: 1px solid;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input{
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #e4e4e4;
+}
+
+select {
+    width: 324px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.radio11 {
+    display: flex;
+}
+.radio11 input{
+    width: auto; 
+}
+
+.radio11 label {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.row-align {
+    display: flex;
+}
+
+.row-align input{
+    width: 890px;
+    margin-bottom: 0;
+}
+
+.row-align button {
+    height: 17px;
+    font-size: 12px;
+    
+}
+
+.hobbys input{
+    width: auto;
+    margin-bottom: 20px;
+    
+}
+
+.hobbys label {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.access input{
+    height: 300px;
+    margin-bottom: 0px;
+}
+
+.access button {
+ width: 1000px;
+ height: 50px;
+}
+
+.news_article_content {
+    display: flex;
+    flex-direction: column ;
+}
+
+.news_article {
+    
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.webtoon_card {
+    
+    margin: 15px;
+}
+.webtoon {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.webtoon_card:last-child h3::before{
+    content: '컷툰';
+    border:1px solid #71b036;
+    font-size: 10px;
+    background-color: #80c83d;
+    color:white;
+}
+
+.webtoon_card h3{
+    font-size: 14px;
+}
+
+.webtoon_card p{
+    font-size: 12px;
+}
+
+.webtoon h2{
+    height: 10px;
+}

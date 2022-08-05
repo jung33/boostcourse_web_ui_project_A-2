@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>포트폴리오</h1>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#">테이블 요소</a></li>
+                <li><a href="#">폼 요소</a></li>
+                <li><a href="#">리스트 요소</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-title">구성 요소</div>
+        
+
+        <section>
+            <h1>테이블 요소</h1>
+            <article>
+                <table>
+                    <caption>아동 사이즈</caption>
+                    <thead>
+                        <tr>
+                            <th colspan="2">구분</th>
+                            <th colspan="2">small</th>
+                            <th colspan="2">Medium</th>
+                            <th colspan="2">large</th>
+                            <th colspan="1">x-large</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th rowspan="3">미국 남아<br>[Boys 2-7]</th>
+                            <th>사이즈</th>
+                            <td>2T</td>
+                            <td>2T</td>
+                            <td>2T</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                        </tr>
+
+                        <tr>
+                            <th>키</th>
+                            <td>84-91</td>
+                            <td>91-99</td>
+                            <td>91-99</td>
+                            <td>99-107</td>
+                            <td>107-114</td>
+                            <td>114-122</td>
+                            <td>122-130</td>
+                        </tr>
+
+                        <tr>
+                            <th>몸무게</th>
+                            <td>13-15</td>
+                            <td>14-15</td>
+                            <td>13-15</td>
+                            <td>14-15</td>
+                            <td>19-21</td>
+                            <td>20-23</td>
+                            <td>23-25</td>
+                        </tr>
+
+                        <tr>
+                            <th rowspan="3">미국 여아<br>[Girls 2-6X]</th>
+                            <th>사이즈</th>
+                            <td>2T</td>
+                            <td>2T</td>
+                            <td>2T</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>6x</td>
+                        </tr>
+
+                        <tr>
+                            <th>키</th>
+                            <td>84-91</td>
+                            <td>91-99</td>
+                            <td>91-99</td>
+                            <td>99-107</td>
+                            <td>107-114</td>
+                            <td>114-122</td>
+                            <td>122-130</td>
+                        </tr>
+
+                        <tr>
+                            <th>몸무게</th>
+                            <td>13-15</td>
+                            <td>14-15</td>
+                            <td>13-15</td>
+                            <td>14-15</td>
+                            <td>19-21</td>
+                            <td>20-23</td>
+                            <td>23-25</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <table>
+                    <caption>환불 가능 금액 조회</caption>
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>환불가능액</th>
+                            <th>수수료</th>
+                            <th>총환불금액</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>
+                                게임보상금액
+                            </td>
+                            <td>
+                                100,000원
+                            </td>
+                            <td>
+                                1,000원
+                            </td>
+                            <td>
+                                99,000원
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                월정액제 보상금액
+                            </td>
+                            <td>
+                                10,000원
+                            </td>
+                            <td>
+                                5,000원
+                            </td>
+                            <td>
+                                5,000원
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                코인
+                            </td>
+                            <td>
+                                
+                                9,000원
+                            </td>
+                            <td>
+                                500원
+                            </td>
+                            <td>
+                                8,500원
+                            </td>
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>총합계</td>
+                            <td>119,000원</td>
+                            <td>6,500원</td>
+                            <td>112,500원</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article>
+
+        </section>
+
+        <section>
+            <h1>폼 요소</h1>
+            <article>
+                <h2>회원가입</h2>
+                <form action="#" method="post">
+                    <label for="id">아이디</label>
+                    <input type="text" name="id" id="id">
+                    <label for="pw">패스워드</label>
+                    <input type="password" name="pw" id="pw">
+                    <label for="birth">생년월일</label>
+                    <select>
+                        <option value="none">년도</option>
+                    </select>
+                    <select>
+                        <option value="none">월</option>
+                    </select>
+                    <select>
+                        <option value="none">일</option>
+                    </select>
+                    <label for="gender">성별</label>
+                    <div class="radio11">
+                        <label><input type="radio" name="gender" value="man" id="man">남</label>
+                        <label><input type="radio" name="gender" value="woman" id="woman">여</label>
+                    </div>
+
+                    <label for="email">이메일</label>
+                    <input type="email" placeholder="kjeodns@naver.com">
+
+                    <label for="phone">휴대전화</label>
+                    <div class="row-align">
+                        <input type="number" placeholder="숫자만 입력해주세요.">
+                        <button>인증번호 받기</button>
+                    </div>
+                    <input type="number" placeholder="인증번호를 입력해주세요">
+                    <label for="hobby">취미</label>
+                    <div class="hobbys row-align">
+                    
+                        <lable><input type="checkbox" name="xxx" value="운동">운동</lable>
+                        <label><input type="checkbox" name="xxx" value="요리">요리</label>
+                        <label><input type="checkbox" name="xxx" value="여행">여행</label>
+                        <label><input type="checkbox" name="xxx" value="게임">게임</label>
+                        <label><input type="checkbox" name="xxx" value="컴퓨터">컴퓨터</label>
+                        <label><input type="checkbox" name="xxx" value="음악">음악</label>
+                        <label><input type="checkbox" name="xxx" value="영화">영화</label>
+                        <label><input type="checkbox" name="xxx" value="독서">독서</label>
+                    </div>
+
+                    <div class="access">
+                        <label for="join">가입인사</label>
+                        <input type="textarea" clas="textarea" >
+                        <button type="submit">가입하기</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+
+        <section>
+            <h1>리스트요소</h1>
+            <article>
+                <strong>'프로젝트' 사전 검색 결과</strong>
+                <h1>프로젝트</h1>
+                <dl>
+                    <dt>프로젝트 <strong>영약학사전</dt></strong></dt>
+                    <dd>연구나 새로운 사업의 개발을 위한 유기적이고 조직적인 계획, 원자력 개발이나 우주개발 등은 대형 프로젝트를 조직하여 이루어진다. 일반적으로 특정한 목표, 계획을 위한 학습 활동 실행계획등을 가리킨다</dd>
+                    <dt>프로젝트 <strong>basic 중학생을 위한 기술, 가정 용어사전</strong></dt>
+                    <dd>
+                        이런 특정한 목적 달성을 위하여 실시되는 시스템 개발, 프로그램 설계,연구개발 계획 혹은 건설 공사 등과 같이 한 번에 그치는 성격을 갖는 단위 작업이나 사업.
+                    </dd>
+                    
+                </dl>
+            </article>
+
+            <article>
+                <h2>실시간 검색어</h2>
+                    <ol class="real_time">
+                        <li>입추</li>
+                        <li>런닝맨 유재석</li>
+                        <li>런닝맨</li>
+                        <li>소나기</li>
+                        <li>주간 날씨</li>
+                        <li>깔라만시</li>
+                        <li>내 아이디는 강남미인</li>
+                        <li>차은우</li>
+                        <li>한국사능력검정시험</li>
+                        <li>맛있는 녀석들</li>
+                    </ol>
+            </article>
+
+            <article>
+                <h2>쿠키 이용안내</h2>
+                <ul>
+                    <li>웹툰 작품은 쿠키를 사용하여 대여/구매 하실 수 있습니다.</li>
+                    <li>쿠키 구매 시 지급되는 보너스 쿠키의 수량은 변경될 수 있으며, 유효기간은 지금 후 90일 입니다.</li>
+
+                </ul>
+
+
+
+            </article>
+
+            <article>
+                <h2>뉴스</h2>
+                <div class="news_article">
+                    <img src="./assets/thumbnail1.jpg">
+                    <div class ="new_article_content">
+                        <strong>[날씨] 내일도 35도 안팎 폭염 내륙소나기 ···습도 높아 후텁지근</strong>
+                        <p>
+                        오늘은 입추 절기지만 가을은 아직 멀리있는 것 같습니다. 일부 내륙에는 소나기가 지났지만 소나기도 더위의 기세를 누그러뜨리지 못했는데요. 동해안을 제외한 전국 대부분 지방에 폭염 특보가 이어지는 가운데 내일도 한낮에 서울과 대전 35도 광주와 대구가 36도까지 오를 것으로 예상됩니다. 내일도 대기가 불안정해지면서 오후에 내륙에는 소나기가 지나는 곳이 있겠습니다.
+                         </p>
+                    </div>  
+                    
+                </div>
+                <div class="news_article">
+                    <div class ="new_article_content">
+                    <strong>[펫카드] 강아지 중성화가 필요한 이유</strong>
+                    <p>
+                    (서율=뉴스1) 최서윤 기자, 방은영 디자이너 = 강아지 중성화 수술을 놓고 찬반이 팽팽하게 엇갈린다. 많은 사람들은 사람들과 공존하려면 개체수 조절을 위해 필요하다고 주장한다. 그러나 어떤 사람들은 인위적인 수술은 안된다면 반대한다.
+                    </p>
+                    </div>
+                </div>
+
+                <div class="news_article">
+                    <img src="./assets/thumbnail1.jpg">
+                    <div class ="new_article_content">
+                    <strong>[날씨] 내일도 35도 안팎 폭염 내륙소나기 ···습도 높아 후텁지근</strong>
+                    <p>
+                    오늘은 입추 절기지만 가을은 아직 멀리있는 것 같습니다. 일부 내륙에는 소나기가 지났지만 소나기도 더위의 기세를 누그러뜨리지 못했는데요. 동해안을 제외한 전국 대부분 지방에 폭염 특보가 이어지는 가운데 내일도 한낮에 서울과 대전 35도 광주와 대구가 36도까지 오를 것으로 예상됩니다. 내일도 대기가 불안정해지면서 오후에 내륙에는 소나기가 지나는 곳이 있겠습니다.
+                    </p>
+                    </div>
+                </div>
+
+                
+            </article>
+
+            
+            <article>
+                <h2>웹툰</h2>
+
+                <div class="webtoon">
+                    <div class="webtoon_card">
+                        <img src="./assets/thumbnail2.jpg" alt="webtoon_image"> 
+                        <h3>하루 3컷</h3>
+                        <P>17화 편리하게 피곤하게</P>
+                    </div>
+                    <div class="webtoon_card">
+                       
+                        <img src="./assets/thumbnail2.jpg" alt="webtoon_image"> 
+                        <h3>하루 3컷</h3>
+                        <P>17화 편리하게 피곤하게</P>
+                    </div>
+                    <div class="webtoon_card">
+                        
+                        <img src="./assets/thumbnail2.jpg" alt="webtoon_image"> 
+                        <h3>하루 3컷</h3>
+                        <P>17화 편리하게 피곤하게</P>
+                    </div>
+                    <div class="webtoon_card">
+                        
+                        <img src="./assets/thumbnail2.jpg" alt="webtoon_image"> 
+                        <h3>하루 3컷</h3>
+                        <P>17화 편리하게 피곤하게</P>
+                    </div>
+                    <div class="webtoon_card">
+                        
+                        <img src="./assets/thumbnail2.jpg" alt="webtoon_image"> 
+                        <h3>하루 3컷</h3>
+                        <P>17화 편리하게 피곤하게</P>
+                    </div>
+                    <div class="webtoon_card">
+                        
+                        <img src="./assets/thumbnail2.jpg" alt="webtoon_image"> 
+                        <h3>하루 3컷</h3>
+                        <P>17화 편리하게 피곤하게</P>
+                    </div>
+                </div>
+                
+            </article>
+
+        </section>
+    </main>
+</body>
+</html>
